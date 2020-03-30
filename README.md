@@ -10,13 +10,13 @@
 6. [Licensing and Acknowledgements](#licensing)
 
 ## Installation <a name="installation"></a>
-The Jupyter notebook in this project is based on Python 3.6.4. You will need packages such as numpy, pandas, matplotlib, pycountry_convert to run this notebook. The package pycountry_convert is used to convert country names to continent names.
-After downloading the repository to your local machine, you will need to unzip the data.zip file before running the Stack_Overflow_survey_project.ipynb.
+The Jupyter notebook in this project is based on Python 3.6.4. You will need packages such as numpy, pandas, matplotlib, pycountry_convert to run this notebook. The package pycountry_convert is used to convert country names to continent names.<br>
+After downloading the repository to your local machine, you will need to unzip the data.zip file before running the Stack_Overflow_survey_project.ipynb file. (I have to zip the dataset because it is too big.)
+<br>
 The file structure should be as follows:
 > repository/  
 &emsp;&emsp;Stack_Overflow_survey_project.ipynb  
 &emsp;&emsp;data/  
-&emsp;&emsp;images/  
 &emsp;&emsp;stackoverflow_ide.twb  
 &emsp;&emsp;stackoverflow_programming languages.twb  
 &emsp;&emsp;IDE.xlsx  
@@ -32,9 +32,8 @@ This project tries to answer the following questions using the the [Stack Overfl
 ## File Descriptions <a name="file"></a>
 1. Stack_Overflow_survey_project.ipynb: is the main file for data processing, analysis and visualization.
 2. data.zip: contains Stack Overflow Annual Developer Survey dataset between Year 2015 and Year 2019. These datasets are used for this project. 
-3. images folder: The four figures in this folder are the main findings of this project.
-4. IDE.xlsx and stackoverflow_ide.twb: Tableau source files to generate the 'most popular IDE' figure.
-5. language.xlsx and stackoverflow_programming languages.twb: Tableau source files to generate the 'most popular languages' figure.
+3. IDE.xlsx and stackoverflow_ide.twb: Tableau source files to generate the 'most popular IDE' figure.
+4. language.xlsx and stackoverflow_programming languages.twb: Tableau source files to generate the 'most popular languages' figure.
 
 ## Technical details <a name="technical"></a>
 ###### Language and IDE data
@@ -51,19 +50,13 @@ When I examining the dataset in the data assessment step, I saw some full time d
 The two figures related to salary is generated with matplotlib. The other two figures are generated using Tableau.
 
 ## Conclusions <a name="conclusions"></a>
-The most popular programming languages are JavaScript, HTML/CSS and SQL. 
-![](./images/languages.png)
+1. The most popular programming languages are JavaScript, HTML/CSS and SQL. 
+2. The most popular IDEs are Visual Studio, Notepad++ and sublime. 
+3. North American developers have the highest average salary with over 90K US dollars in 2019.
+4. Asian developers have the highest salary increase rate with nearly 80% over the past five years. 
+5. South American developers have the lowest salary in 2019, and their average salary has no increase over the past five years. 
 
-The most popular IDEs are Visual Studio, Notepad++ and sublime. 
-![](./images/IDEs.png)
-
-North American developers have the highest average salary with over 90K US dollars in 2019.
-![](./images/salary_increase.png)
-
-Asian developers have the highest salary increase rate with nearly 80% over the past five years. South American developers have the lowest salary in 2019, and their average salary has no increase over the past five years. 
-![](./images/salary_increase_percentage.png)
-
-More detailed analysis of this project can be found [here]().
+More details of this analysis can be found [here](https://medium.com/@lidun.cn/what-is-the-most-popular-programming-language-and-ide-c5f80a443980).
 
 ## Licensing and Acknowledgements <a name="Licensing"></a>
 Thanks Stack Overflow for making the survey data
